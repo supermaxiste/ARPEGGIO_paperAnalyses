@@ -1,0 +1,12 @@
+To find out if the mapping position is correct in a bam file from concatenated genomes:
+
+samtools view file.bam | cut -f 3 | cut -d "_" -f 2 | awk '$1>2239{c++} END{print c+0}'
+
+To perform alignment:
+
+$data=/srv/kenlab/stefan/phdProject/bs_data_analysis/00_data
+$genome=/srv/kenlab/stefan/phdProject/Akam_genome/
+$temp=/srv/kenlab/stefan/phdProject/eagle_test/
+
+bismark --multicore 3 --genome $genome -1 ${data}/data.fastq -2 ${data}/data.fastq -o $temp --temp_dir $temp
+

@@ -1,0 +1,5 @@
+name	type	origin	condition
+SRR3219088	PE	allopolyploid	A
+SRR3219089	PE	allopolyploid	A
+SRR3219104	PE	allopolyploid	B
+SRR3219105	PE	allopolyploid	B

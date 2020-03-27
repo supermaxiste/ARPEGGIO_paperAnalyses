@@ -1,0 +1,9 @@
+name	type	origin
+SRX2618908	SE	allopolyploid
+SRX2618909	SE	allopolyploid
+SRX2618910	SE	allopolyploid
+SRX2618911	SE	allopolyploid
+SRX2618912	SE	allopolyploid
+SRX2618913	SE	allopolyploid
+SRX2618914	SE	allopolyploid
+SRX2618915	SE	allopolyploid
