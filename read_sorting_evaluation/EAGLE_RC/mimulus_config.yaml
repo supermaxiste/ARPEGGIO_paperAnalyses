@@ -13,7 +13,7 @@
 ###############################################################################
 
 OUTPUT: output/
-METADATA: metadata.txt
+METADATA: metadata_mimulus.txt
 IS_PAIRED: False
 DOCKER_IMAGE: docker://continuumio/miniconda3:4.7.12
 
@@ -21,8 +21,8 @@ DOCKER_IMAGE: docker://continuumio/miniconda3:4.7.12
 ###############                CONDITIONAL RULES                ###############
 ###############################################################################
 
+CONVERSION_CHECK: False
 RUN_TRIMMING: True
-GENOME_PREPARATION: True
 RUN_BISMARK: True
 RUN_READ_SORTING: True
 RUN_DMR_ANALYSIS: False
