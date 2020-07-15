@@ -2,7 +2,7 @@
 
 **IMPORTANT**: the versions of all the tools used here are the same as in ARPEGGIO. Please find the versions [here](https://github.com/supermaxiste/ARPEGGIO/blob/master/envs/environment.yaml).
 
-The `concatenated_alignment` scripts need to be run first and the `deduplicate_alignment` second. To evaluate the accuracy, you can use the commands suggested in `commands.txt`.
+The `concatenated_alignment` scripts need to be run first and the `deduplicate_alignment` second. To evaluate the accuracy, see the section below.
 
 For all scripts the `data`, `genome` and `temp` paths have to be modified according to the personal system.
 
