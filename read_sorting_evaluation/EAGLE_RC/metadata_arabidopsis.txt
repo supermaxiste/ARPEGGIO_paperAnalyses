@@ -1,0 +1,5 @@
+name	type	origin
+halleri2	PE	allopolyploid
+halleri_G1	PE	allopolyploid
+lyrata1	PE	allopolyploid
+lyrata_G1	PE	allopolyploid
