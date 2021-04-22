@@ -27,7 +27,7 @@ This README will guide you through some important aspects of the example run pro
 
 The raw data after download is named after their identifiers/accession numbers, for example `SRX2618908_1.fastq.gz`. We left the name untouched and used it for the metadata.
 It is important to remember that the data is single-end, so the second column of the metadata contains `SE`. The third column associates samples to their origin: either `parent1`, `parent2` or `allopolyploid`.
-In our case we picked _M. guttatus_ as `parent1` and _M. luteus_ as `parent2`. This referencing needs to be kept in mind for consistency with the `config.yaml` file.
+In our case we picked _M. guttatus_ as `parent1` and _M. luteus_ as `parent2`. This referencing needs to be kept in mind for consistency with the `config.yaml` file. Finally the fourth column specifies the experimental condition, which should be either `A` or `B`, but in this case, since we're not testing different conditions, every sample was set to `A`. **Important: all columns must be present with entries for each column, otherwise with missing or empty columns, ARPEGGIO will fail.**  
 For more details check what the [ARPEGGIO wiki](https://github.com/supermaxiste/ARPEGGIO/wiki/Input-files) says.
 
 ## Configuration file details
