@@ -1,13 +1,9 @@
-name	type	origin
-SRX2618908	SE	parent2
-SRX2618909	SE	parent2
-SRX2618910	SE	parent2
-SRX2618911	SE	parent2
-SRX2618912	SE	parent1
-SRX2618913	SE	parent1
-SRX2618914	SE	parent1
-SRX2618915	SE	parent1
-SRX2618920	SE	allopolyploid
-SRX2618921	SE	allopolyploid
-SRX2618922	SE	allopolyploid
-SRX2618923	SE	allopolyploid
+name	type	origin	condition
+SRX2618908	SE	allopolyploid	A
+SRX2618909	SE	allopolyploid	A
+SRX2618910	SE	allopolyploid	A
+SRX2618911	SE	allopolyploid	A
+SRX2618912	SE	allopolyploid	B
+SRX2618913	SE	allopolyploid	B
+SRX2618914	SE	allopolyploid	B
+SRX2618915	SE	allopolyploid	B
